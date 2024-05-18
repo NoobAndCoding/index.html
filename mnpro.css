@@ -8,7 +8,7 @@ img {
 }
 
 footer {
-  background-color:grey
+  background-color:grey;
 }
 
 .topnav {
@@ -31,7 +31,7 @@ footer {
 }
   
   .topnav a.active {
-    background-color: #0000cc
+    background-color: #0000cc;
     color: white;
   }
 
