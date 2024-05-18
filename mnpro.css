@@ -38,3 +38,7 @@ footer {
 .topnav-right {
   float: right;
 }
+
+body {
+  margin:0px;
+}
