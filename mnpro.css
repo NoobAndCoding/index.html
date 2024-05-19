@@ -59,3 +59,29 @@ header {
   margin-right: 0px
   padding: 0px;
 }
+
+.bg-img {
+  background-image: url ("https://www.alliedgamingpc.com.au/media/images/MOAB%20HARDLINE%20CATEGORY%20IMAGE%201_au.webp");
+
+  min-height: 180px;
+
+  background-position: center;
+  background-repear: no-repeat;
+  background-size: cover;
+
+  position: relative;
+}
+
+.container {
+  position: absolute;
+  margin: 20px;
+  width: auto;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #57575b;
+}
+  
+
+
