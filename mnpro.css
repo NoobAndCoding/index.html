@@ -67,7 +67,7 @@ header {
 
   background-position: center;
   background-repear: no-repeat;
-  background-size: page;
+  background-size: whole-page;
 
   position: relative;
 }
