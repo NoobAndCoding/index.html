@@ -63,7 +63,7 @@ header {
 .bg-img {
   background-image: url("https://github.com/NoobAndCoding/index.html/blob/main/pc%20for%20website%20home%20page.png?raw=true");
 
-  min-height: 1080px;
+  min-height: auto;
 
   background-position: center;
   background-repeat: no-repeat;
