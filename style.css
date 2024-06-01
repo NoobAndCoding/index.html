@@ -31,8 +31,8 @@
 
 .topnav img {
   float: left;
-  width: auto;
-  length: auto;
+  width: 50px;
+  length: 50px;
 }
 
 .topnav input[type=text] {
