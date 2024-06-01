@@ -15,13 +15,14 @@
 
 .topnav a:hover {
   background-color: #ffffff;
-  border-radius: 10px;
+  border-radius: 5px;
   color: black;
 }
 
 .topnav a.active {
   background-color: #0000cc;
   color: white;
+  border-radius: 5px;
 }
 
 .topnav-right {
@@ -30,8 +31,8 @@
 
 .topnav img {
   float: left;
-  width: 10px;
-  length: 10px;
+  width: 30px;
+  length: 30px;
 }
 
 .topnav input[type=text] {
