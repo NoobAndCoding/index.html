@@ -6,3 +6,7 @@
         function myFunction2() {
           document.getElementById ("demo").innerHTML = "Hello Everybody";
         }
+
+        function myFunction3() {
+                window.alert(5 + 6);
+        }
