@@ -17,3 +17,13 @@
         function myFunction3() {
                 window.alert(5 + 6);
         }
+
+        function myFunction4() {
+                document.getElementById ("function=rgbOn").src="#rgb-on";
+        }
+
+        function myFunction5() {
+                document.getElementById ("function=rgbOff").src="#rgb-off";
+        }
+
+        
