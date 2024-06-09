@@ -26,4 +26,7 @@
                 document.getElementById ("function=rgbOff").src="#rgb-off";
         }
 
+        function myFunction6() {
+                document.getElementById ("function=rgbOn-off").src="#rgb-on/off"
+
         
