@@ -63,6 +63,7 @@ body {
   
 .vid1 {
   margin: auto;
+  max-width: 500px;
 }
 
 
