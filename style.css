@@ -45,6 +45,21 @@
   font-size: 17px;
 }
 
+.topnav .topnav-right button {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .topnav-right button:hover {
+  background: #ccc;
+}
+
 @media screen and (max-width: 600px) {
   .topnav input[type=text] {
     border: 2px solid black;
