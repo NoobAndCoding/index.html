@@ -1,10 +1,10 @@
-.topnav {
+.navbar {
   overflow: hidden;
   background-color: #595959;
   margin: -8px;
 }
 
-.topnav a {
+.navbar a {
   float: left;
   display: block;
   color: white;
@@ -14,29 +14,25 @@
   font-size: 25px;
 }
 
-.topnav a:hover {
+.navbar a:hover {
   background-color: #ffffff;
   border-radius: 5px;
   color: black;
 }
 
-.topnav a.active {
+.navbar a.active {
   background-color: #0000cc;
   color: white;
   border-radius: 5px;
 }
 
-.topnav-right {
-  float: right;
-}
-
-.topnav img {
+.navbar img {
   float: left;
   width: 45px;
   length: 45px;
 }
 
-.topnav input[type=text] {
+.navbar input[type=text] {
   float: right;
   padding: 6px;
   border: none;
@@ -45,7 +41,7 @@
   font-size: 17px;
 }
 
-.topnav .topnav-right button {
+.navbar .search-bar button {
   float: right;
   padding: 6px;
   margin-top: 8px;
@@ -56,12 +52,12 @@
   cursor: pointer;
 }
 
-.topnav .topnav-right button:hover {
+.navbar .navbar-right button:hover {
   background: #ccc;
 }
 
 @media screen and (max-width: 600px) {
-  .topnav input[type=text] {
+  .navbar input[type=text] {
     border: 2px solid black;
   }
 }
