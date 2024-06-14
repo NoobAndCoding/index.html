@@ -32,7 +32,7 @@
   length: 45px;
 }
 
-.navbar input[type=text] {
+.search-bar input[type=text] {
   float: right;
   padding: 6px;
   border: none;
@@ -41,7 +41,7 @@
   font-size: 17px;
 }
 
-.navbar .search-bar button {
+.search-bar button {
   float: right;
   padding: 6px;
   margin-top: 8px;
