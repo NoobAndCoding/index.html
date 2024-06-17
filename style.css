@@ -38,6 +38,8 @@
   border: none;
   margin-top: 8px;
   font-size: 17px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
 
 .search-bar button {
@@ -49,6 +51,8 @@
   font-size: 17px;
   border: none;
   cursor: pointer;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
 }
 
 .navbar .navbar-right button:hover {
@@ -77,6 +81,7 @@ body {
   display:block;
   margin: 0 auto;
 }
+
 
 
 
