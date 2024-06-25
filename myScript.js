@@ -59,4 +59,4 @@ window.addEventListener('scroll', () => {
     } else {
         fadeContent.style.opacity = 1;
     }
-});
+})
