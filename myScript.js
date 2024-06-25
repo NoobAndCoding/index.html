@@ -47,3 +47,16 @@ window.onscroll = function() {
   }
   prevScrollpos = currentScrollPos;
 }
+
+window.addEventListener('scroll', () => {
+    const fadeContent = document.querySelector('.fade-content');
+    const contentHeight = fadeContent.offsetHeight;
+    const scrollY = window.scrollY;
+    const viewportHeight = window.innerHeight;
+
+    if (scrollY > viewportHeight - contentHeight) {
+        fadeContent.style.opacity = Math.max(1 - (scrollY - (viewportHeight - contentHeight)) / contentHeight, 0);
+    } else {
+        fadeContent.style.opacity = 1;
+    }
+});
